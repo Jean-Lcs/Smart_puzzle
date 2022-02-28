@@ -1,5 +1,7 @@
 # Smart_puzzle
 
+![Cover](https://github.com/Jean-Lcs/Smart_puzzle/blob/main/steps_smart_puzzle.png)
+
 
 
 This personal project has the same purpose than the older one 'Non_optimized_maze_soler" but is actually quite different in its structure and method.
@@ -14,3 +16,6 @@ Then, we try to find the correct position for each sub-image but in a smarter wa
   - STEP 3: For each line, we strat by the left element (that we already have since it's the first column) and we try to look for the right neighboor by minimizing the "TOP-BOTTOM" AND "LEFT-RIGHT" discontinuities, which insures some better results and allows use to raise the number of puzzle pieces.
 
 Finally, we have all the positions so we reassemble the image
+
+
+![alt tag](https://github.com/Jean-Lcs/Smart_puzzle/blob/main/RM_pic.jpg)
